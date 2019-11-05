@@ -1,0 +1,10 @@
+package lcmtypes;
+
+struct setpoint_t
+{
+    int64_t utime;
+    float left_sp;
+    float right_sp;
+    float left_vel;
+    float right_vel;
+}

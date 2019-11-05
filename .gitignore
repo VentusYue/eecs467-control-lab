@@ -1,0 +1,6 @@
+.vscode/
+.idea/
+*.o
+**/*.o
+botlab-f19/bin/*
+mobilebot-f19/bin/*

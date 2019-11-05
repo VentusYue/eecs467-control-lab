@@ -1,0 +1,14 @@
+package lcmtypes;
+
+struct mbot_motor_command_t
+{
+
+    int64_t utime;
+
+    float trans_v; // in m/s
+    float angular_v; // in rad/s
+    int8_t left_motor_enabled;
+    int8_t right_motor_enabled;
+    double left_motor_speed;
+    double right_motor_speed;
+}
